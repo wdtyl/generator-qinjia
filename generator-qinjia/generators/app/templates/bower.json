@@ -1,0 +1,25 @@
+{
+    "name": "<%= appName %>",
+    "description": "\"测试使用\"",
+    "main": "js/index.js",
+    "authors": [
+      "<%= appAuthor %>"
+    ],
+    "license": "<%= appLicense %>",
+    "keywords": [
+      "generator-wendingding",
+      "yeoman-generator"
+    ],
+    "homepage": "https://github.com/flowerField/generator-wen",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "jquery": "^3.3.1"<% if(isIncludeBootstrap) { %>,
+      "bootstrap": "^4.1.1" <% } %>
+    }
+  }
